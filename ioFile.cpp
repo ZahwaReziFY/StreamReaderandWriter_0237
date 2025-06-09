@@ -20,4 +20,6 @@ int main()
             break;
         outfile << baris << endl;
     }
+
+    outfile.close();
 }
