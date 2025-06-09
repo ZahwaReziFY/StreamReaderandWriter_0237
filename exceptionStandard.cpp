@@ -11,4 +11,8 @@ int main()
         array<int, 3> data = {10, 20, 30};
         cout << data.at(4) << endl;
     }
+    catch (exception &e)
+    {
+        cout << e.what() << endl;
+    }
 }
