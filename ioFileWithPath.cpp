@@ -17,4 +17,8 @@ int main()
     cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 
     while(true)
+    {
+        cout << "- ";
+        getline(cin, baris);
+    }
 }
