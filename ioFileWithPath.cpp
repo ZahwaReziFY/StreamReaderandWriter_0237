@@ -30,7 +30,7 @@ int main()
     outfile.close();
 
     ifstream infile;
-    infile.open("NamaFile + .txt", ios::out);
+    infile.open(NamaFile + ".txt", ios::out);
 
     cout << endl
          << ">= Membuka dan membaca file " << endl;
